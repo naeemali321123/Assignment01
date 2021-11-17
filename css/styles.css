@@ -1,120 +1,53 @@
-*{
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-*{
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-main{
-    border: 2px solid black;
-    width: 90%;
+
+main {
     margin: auto;
-    color: white;
     display: grid;
-    grid-template-rows: 70px 100px 300px 200px 500px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     grid-gap: 10px;
-    align-items: stretch;
-    justify-items: st;
 }
-#header-img{                         
-    background-color: blue;
-    grid-column: 1/-1;    
-}
-#Ara-profile{
-    background-color: red;
-    grid-column: 1/3;
-}
-#social-icon{background-color: yellow;}
-#product-img{background-color: mediumorchid;}
-#product-info{background-color: gray;}
-#side-bar{background-color: black;}
-#unoder-list{background-color: green;}
-#unoder-list2{background-color: skyblue;}
-#oder-list{background-color: fuchsia;}
-#form{
-    background-color: mediumslateblue;
+
+#header-img {
     grid-column: 1/-1;
 }
 
+#header-img img, #product-img img, #side-bar img {
+    width: 100%;
+}
 
-/* #bg-img{
-    width: 100%; 
-    margin: 0px;
-    padding: 0px;
+#Ara-profile {
+    grid-column: 1/3;
 }
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-section{
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    float:left;
-    width: 75%;
-}
-h1{
+
+#Ara-profile h1 {
     text-align: center;
 }
-P{
-    display: block;
-    text-align: left;
+
+#social-icon {
+    padding-top: 30px;
 }
 
-
-.product-img{
-    width: 35%;
-    display: block;
-    float: left;
-}
-aside{
-display: block;
-    float:left;
-    width: 25%;
-    text-align: left;
-    margin-top: 60px;
-
-}
-#aside-panal{
-    display: block;
-    float: left;
-    margin-left: 10px;
+#unoder-list {
+    padding-left: 50px;
 }
 
-#product1-img{
-    display: block;
-    width: 90%;
-    margin-top: 50px;
+#form {
+    display: grid;
+    grid-column: 1/-1;
+    justify-items: center;
+    margin: 20px 0px;
 }
-ul{
-    display: block;
-    float: left;
-    margin-right: 30%;
-    
+
+#form textarea {
+    width: 300px;
+    height: 100px;
 }
-ol{
-    display: block;
-    float: left;
-}
-#order-margin{
-    margin-top: 50px;
-}
-#joinUs-form{
-    display: block;
-    text-align: left;
-}
-fieldset{
-margin: 0% 30% ;
-padding: 30px;
-}
-legend{
-    font-size: 30px;
-    display: block;
-    text-align: left;
-}
-input, label{
-  display: block;
-  margin: 0px 12%; 
-} */
